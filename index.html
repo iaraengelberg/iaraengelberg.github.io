@@ -1,0 +1,279 @@
+<html>
+    <!-- El resto de cosas -->
+    <head>
+        <!-- Titulo de la pagina -->
+        <title>Grupo ENG</title>
+        <!-- Importar  archivos -->
+        <link rel="stylesheet" href="estilos/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <!-- Lo que se ve -->
+    <body>
+        <nav>
+            <img src="img/logo.png" height="50"><img>
+            <div class="topnav" id="myTopnav">
+                  <a href="index.html" class="active">Home</a>
+                  <a href="historia.html">Historia</a>
+                  <a href="obras.html">Obras</a>
+                  <a href="industrias.html">Industrias</a>
+                  <a href="contacto.html">Contacto</a>
+                  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+                </div>
+    
+        </nav>
+        <!-- Sección de Header -->
+        <section id="header">
+            <div class="contenedor-imagen">
+                <img src="img/header.png" img/> 
+              </div>
+            
+            <h1>Diseño<br/>Fabricación<br/>Montaje</h1>
+            <h2>De estructuras metalicas</h2>
+        </section>
+
+        <!-- Sección de Featured -->
+        <section id="featured">
+            <h3>De donde seguramente nos conoces!</h3>
+            <!-- Primera fila -->
+            <ul>
+                <li>
+                    <img src="img/indus/Aeropuerto ezeiza terminal ll (2).jpeg" height="250" width="250"><img/>
+                  
+                    <p> Aeropuerto Internacional<br/>Ministro Pistarini</p>
+                </li>
+                <li>
+                    <img src="img/indus/retiro.jpeg" height="250" width="250"><img/>
+                    <p> Terminal de Retiro</p>
+                </li>
+                <li>
+                    <img src="img/rosario.jpg" height="250" width="250"><img/>
+                    <p> Aeropuerto<br/>Internacional De Rosario</p>
+                </li>
+                <li>
+                    <img src="img/antartidaa.jpg" height="250" width="250" ><img/>
+                    <p> Antenta para la base<br/>Antartica "Belgrano 2"</p>
+                </li> 
+            </ul>
+            <!-- Segunda fila -->
+           
+            <!-- Boton -->
+            <div class="button-right">
+                <a href="obras.html"></a>
+
+                <form action="obras.html">
+                <button>
+                    Ver obras
+                </button>
+                
+              </form>
+            </div>
+        </section>
+
+        <!-- Sección de Clientes -->
+        <section>
+            <h3>Algunos de nuestros clientes</h3>
+            <ul id="clients-list">
+                <li>
+                    <img src="img/axion.png"><img/>
+                </li>
+                <li>
+                    <img src="img/argentina2000.png" ><img/>
+                </li>
+                <li>
+                    <img src="img/rosario.png" ><img/>
+                </li>
+                <li>
+                    <img src="img/ypf.png" ><img/>
+                </li>
+                <li>
+                    <img src="img/antartida.png" ><img/>
+                </li>
+            </ul>
+        </section>
+        <!-- Sección de Industrias -->
+        <section id="industries">
+            <h3>Industrias de especialidad</h3>
+            <ul id="industry-list">
+                <li>
+                    <img src="img/industrias/arquitectura.png" height="360" width="auto"><img/>
+                    <p>Arquitectura</p>
+                </li>
+                <li>
+                    <img src="img/industrias/infraestructura.png" height="360" width="auto"><img/>
+                    <p>Infraestructura</p>
+                </li>
+                <li>
+                    <img src="img/industrias/energia.png" height="360" width="auto"><img/>
+                    <p>Energía</p>
+                </li>
+                <li>
+                    <img src="img/industrias/oilgas.png" height="360" width="auto"><img/>
+                    <p>Oilgas</p>
+                </li>
+                <li>
+                    <img src="img/industrias/mineria.png" height="360" width="auto"><img/>
+                    <p>Mineria</p>
+                </li>
+            </ul>
+            <!-- Boton -->
+            <div class="button-right">
+                <a href="industrias.html"></a>
+
+                <form action="obras.html">
+                <button>
+                    Ver mas
+                </button>
+                
+              </form>
+            </div>
+        </section>
+
+            <section id="indus">
+                <h3>Industrias de especialidad</h3>
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                      <img src="img/industrias/arquitectura.png" style="width:100%"> <p>Arquitectura</p>
+                    </div>
+                    <div class="mySlides fade">
+                      <img src="img/industrias/infraestructura.png" style="width:100%"> <p>Infraestructura</p>
+                    </div>
+                    <div class="mySlides fade">
+                      <img src="img/industrias/energia.png" style="width:100%"> <p>Energía</p>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="img/industrias/oilgas.png" style="width:100%">  <p>Oilgas</p>
+                      </div>
+                      <div class="mySlides fade">
+                        <img src="img/industrias/mineria.png" style="width:100%">
+                        <p>Mineria</p>
+                      </div>
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                    </div>
+                    <div style="text-align:center">
+                      <span class="dot" onclick="currentSlide(1)"></span> 
+                      <span class="dot" onclick="currentSlide(2)"></span> 
+                      <span class="dot" onclick="currentSlide(3)"></span> 
+                      <span class="dot" onclick="currentSlide(4)"></span> 
+                    </div>
+                </div>
+        </section>
+         <!-- Sección de Contacto -->
+        <section id="contact">
+            <div>
+                <h3>
+                    ¿Tenés alguna pregunta?
+                </h3>
+                <h5>Hablemos</h5>
+                <img class="ilustracion" src="img/contacto.png"></div>
+                <!-- <p><a href="mailto:info@grupoeng.com">info@grupoeng.com</a></p>
+                <p><a href="https://wa.me/5491156071366">+54 9 11 5607-1366</a></p> -->
+            </div>
+            <div class="form"> 
+                <form action="procesar_formulario.php" method="POST"></form>
+                
+                <h6>Contactanos</h6>
+                <input type="text" placeholder="Nombre" id="Nombre">
+                <input type="text" placeholder="Mail"  id="Mail">
+                <input type="text" placeholder="Teléfono"  id="Telefono">
+                <input type="text" placeholder="Comentarios"  id="Comentarios">
+                <button  type="button" onclick="mostrarAgradecimiento()">Enviar</button>
+                
+                
+                <div id="mensaje-agradecimiento" 
+                class="mensaje-agradecimiento">
+                    Gracias por contactarse con nosotros!
+                  </div> 
+            </div>
+        </section>
+        <!-- Sección de Footer -->
+        <footer>
+            <div class="footerder">
+                <img class="logof" src="img/logo.png" height="50"><img>
+                <p> © 2023 - GRUPO ENG. All rights reserved</p>
+                <img src="img/certificacion.png" height="50"><img>
+
+            </div>
+            <div class="info">
+                 <p><a href="mailto:info@grupoeng.com">info@grupoeng.com</a></p>
+                <p><a href="https://wa.me/5491156071366">+54 9 11 5607-1366</a></p>
+                <ul>
+                    <li>
+                       <a  href="https://www.linkedin.com/company/grupo-eng-s-a-/?originalSubdomain=ar"> <img src="img/social/linkedin.png" height="27" width="27"><img/></a>
+                    </li>
+                    <li>
+                       <a  href="https://instagram.com/grupoeng.sa?igshid=MmJiY2I4NDBkZg=="> <img src="img/social/instagram.png" height="27" width="27"><img/></a>
+                    </li>
+                    <li>
+                       <a  href="https://wa.link/m2nu1r"> <img src="img/social/whatsapp.png" height="27" width="27"><img/></a>
+                    </li>
+                    <li>
+                       <a  href="https://www.facebook.com/GrupoEng"> <img src="img/social/facebook.png" height="27" width="27"><img/></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+        
+        <script>
+
+           function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+            </script>
+
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+     </script>
+
+<script>
+    function mostrarAgradecimiento() {
+      var mensaje = document.getElementById("mensaje-agradecimiento");
+      mensaje.style.display = "block";
+      
+      // Vaciar los campos del formulario
+      document.getElementById("Nombre").value = "";
+      document.getElementById("Mail").value = "";
+      document.getElementById("Telefono").value = "";
+      document.getElementById("Comentarios").value = "";
+      // Agrega más líneas similares para otros campos del formulario
+    }
+  </script>
+          
+    </body>
+</html>

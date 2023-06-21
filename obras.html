@@ -1,0 +1,174 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="estilos/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+      <nav>
+        <img src="img/logo.png" height="50"><img>
+        <div class="topnav" id="myTopnav">
+              <a href="index.html" class="active">Home</a>
+              <a href="historia.html">Historia</a>
+              <a href="obras.html">Obras</a>
+              <a href="industrias.html">Industrias</a>
+              <a href="contacto.html">Contacto</a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+
+    </nav>
+          
+
+    <section class="obrasection">
+
+          <h3>Nuestras Obras</h3>
+            <p>Te invitamos a conocer de qué somos capaces</p>
+              
+              <div class="proyecto">
+                <ul>
+                  <li>
+                    <img src="img/cvo.jpg" alt="Imagen 1"><p> Central vuelta obligado</p>
+                  </li>
+
+                  <li>
+                    <img src="img/Aeropuerto ezeiza terminal ll (16).jpg" alt="Imagen 2"><p> Aeropuerto internacional ministro Pistarini</p>
+                  </li>
+
+                    <li>
+                    <img src="img/indus/retiro.jpeg" alt="Imagen 3"> <p> Terminal de trenes de retiro</p>
+                  </li>
+
+                  <li>
+                  <img src="img/antartidaa.jpg" alt="Imagen 1"> <p> Base antena Antartica Belgrano ll </p>
+                
+                  </li>
+
+                  <li>
+                  <img src="img/obras/4 de febrero 2009 panoramicas (2).jpg" alt="Imagen 2"> <p> Torres panoramicas </p>
+                </li>
+
+                  <li>
+                  <img src="img/obras/casa country (5).jpeg" alt="Imagen 3"> <p> Casa country </p>
+                </li>
+
+                <li>
+                  <img src="img/obras/marinas H (8).jpeg" alt="Imagen 1"><p> Marinas H bar</p>
+                </li>
+
+                <li>
+                  <img src="img/obras/tennis tigre (4).jpg" alt="Imagen 2"><p> Bar tennis tigre</p>
+                </li>
+
+                  <li>
+                  <img src="img/obras/universidad de moron (2).jpeg" alt="Imagen 3"> <p> Universidad de Moron</p>
+                </li>
+
+                <li>
+                <img src="img/obras/WhatsApp Image 2021-10-06 at 6.29.39 AM.jpeg" alt="Imagen 1"> <p> Escuela ORT sede tigre </p>
+              
+                </li>
+
+                <li>
+                <img src="img/obras/WhatsApp Image 2021-10-06 at 6.29.39 AM.jpeg" alt="Imagen 2"> <p> TKS </p>
+              </li>
+
+                <li>
+                <img src="img/obras/lamali 1.jpg" alt="Imagen 3"> <p> Limali </p>
+              </li>
+
+            </ul>
+            
+                </div>
+              
+             
+  
+          </section>
+            
+           
+            
+            </div>
+
+            <footer>
+              <div class="footerder">
+                  <img class="logof" src="img/logo.png" height="50"><img>
+                  <p> © 2023 - GRUPO ENG. All rights reserved</p>
+                  <img src="img/certificacion.png" height="50"><img>
+  
+              </div>
+              <div class="info">
+                   <p><a href="mailto:info@grupoeng.com">info@grupoeng.com</a></p>
+                  <p><a href="https://wa.me/5491156071366">+54 9 11 5607-1366</a></p>
+                  <ul>
+                      <li>
+                         <a  href="https://www.linkedin.com/company/grupo-eng-s-a-/?originalSubdomain=ar"> <img src="img/social/linkedin.png" height="27" width="27"><img/></a>
+                      </li>
+                      <li>
+                         <a  href="https://instagram.com/grupoeng.sa?igshid=MmJiY2I4NDBkZg=="> <img src="img/social/instagram.png" height="27" width="27"><img/></a>
+                      </li>
+                      <li>
+                         <a  href="https://wa.link/m2nu1r"> <img src="img/social/whatsapp.png" height="27" width="27"><img/></a>
+                      </li>
+                      <li>
+                         <a  href="https://www.facebook.com/GrupoEng"> <img src="img/social/facebook.png" height="27" width="27"><img/></a>
+                      </li>
+                  </ul>
+              </div>
+          </footer>
+        <script>
+            function openModal() {
+              document.getElementById('myModal').style.display = "block";
+            }
+            
+            function closeModal() {
+              document.getElementById('myModal').style.display = "none";
+            }
+            
+            var slideIndex = 1;
+            showDivs(slideIndex);
+            
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+            
+            function currentDiv(n) {
+              showDivs(slideIndex = n);
+            }
+            
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("demo");
+              var captionText = document.getElementById("caption");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+              }
+              x[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " w3-opacity-off";
+              captionText.innerHTML = dots[slideIndex-1].alt;
+            }
+        </script>
+
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+    
+    </body>
+</html>
